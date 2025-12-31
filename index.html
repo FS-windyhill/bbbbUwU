@@ -18,8 +18,8 @@
         /* --- 全局与主题样式 --- */
         :root {
             --bg-color: #fce4ec;
-            --primary-color: #ff80ab;
-            --secondary-color: #f48fb1;
+            --primary-color: #5678ff;
+            --secondary-color: #98c8ff;
             --accent-color: #90caf9;
             --text-color: #444;
             --white-color: #fff;
@@ -32,6 +32,7 @@
 
         html {
             height: 100%;
+            min-height: calc(100% + env(safe-area-inset-top, 40px));
             overflow: hidden;
             scrollbar-width: none; /* Firefox */
             -ms-overflow-style: none;  /* IE and Edge */
@@ -550,7 +551,7 @@
         #message-edit-textarea {
             width: 100%;
             padding: 12px;
-            border: 2px solid #fce4ec;
+            border: 2px solid #c3d8ff;
             border-radius: 10px;
             background-color: #fff;
             transition: border-color 0.3s;
@@ -1578,7 +1579,7 @@
         .form-group textarea {
             width: 100%;
             padding: 12px;
-            border: 2px solid #fce4ec;
+            border: 2px solid #cbdcff;
             border-radius: 10px;
             background-color: #fff;
             transition: border-color 0.3s;
